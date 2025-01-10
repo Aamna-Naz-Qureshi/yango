@@ -1,0 +1,374 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 500;
+}
+
+body {
+  font-family: "Inter", serif;
+  font-weight: 500;
+}
+
+#nav {
+  display: flex;
+  background-color: #f00;
+  padding: 15px 45px;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+
+#nav ul {
+  display: flex;
+  color: white;
+  align-items: center;
+}
+
+#nav li {
+  padding: 0 15px;
+  list-style: none;
+}
+
+#nav a {
+  text-decoration: none;
+  color: white;
+}
+#nav a:hover{
+  color: #bfbfbf;
+}
+
+#logo {
+  padding-right: 20px;
+}
+
+#leng {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+#lenguage {
+  border: none;
+  background-color: #f00;
+  color: white;
+  font-size: 15px;
+  margin-left: 5px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+#main {
+  background-image: url(./orig.jpeg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+#left-div {
+  color: white;
+  width: 38%;
+  padding-top: 70px;
+  padding-left: 40px;
+}
+
+#left-div h1 {
+  font-size: 65px;
+  letter-spacing: -2px;
+  margin-bottom: 15px;
+  line-height: 70px;
+  font-weight: 500;
+}
+
+#left-div p {
+  line-height: 20px;
+}
+
+#btn,
+#btn2 {
+  width: 178px;
+  height: 50px;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 50px;
+  margin-top: 35px;
+  margin-bottom: 120px;
+}
+
+#btn {
+  color: white;
+  background-color: #f00;
+  border: none;
+}
+
+#btn2 {
+  color: black;
+  background-color: white;
+  border: none;
+  margin-left: 10px;
+}
+
+#left-div img {
+  border-radius: 5px;
+  border: solid 1px #5b5656;
+  width: 150px;
+}
+
+#right-div {
+  background-color: #f00;
+  height: 200px;
+  width: 900px;
+  margin-top: 455px;
+  margin-left: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  border-radius: 30px 30px 0px 0;
+}
+
+#right-div img {
+  border-radius: 20px;
+  width: 130px;
+}
+
+#right-div div {
+  color: white;
+}
+
+#right-div div p {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+#ride-comfortable {
+  display: flex;
+  margin-top: 70px;
+  margin-left: 200px;
+  align-items: center;
+}
+
+#ride-comfortable h1 {
+  font-size: 50px;
+  letter-spacing: -2px;
+  font-weight: 500;
+}
+
+#ride,
+#delivery {
+  display: flex;
+  background-color: #5b565611;
+  height: 100px;
+  justify-content: center;
+  padding-left: 20px;
+  border-radius: 20px;
+  align-items: center;
+}
+
+#ride img,
+#delivery img {
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+}
+
+#ride div,
+#delivery div {
+  text-align: start;
+}
+
+#ride div img,
+#delivery div img {
+  width: 25px;
+  height: 30px;
+}
+
+.contact-section {
+  padding: 100px 0;
+  border-top: solid 1px #70707038;
+  margin-right: 200px;
+}
+
+.contact-option {
+  width: 310px;
+  display: flex;
+  flex-direction: column;
+  background-color: #5b565611;
+  height: 100px;
+  justify-content: center;
+  padding-left: 20px;
+  border-radius: 20px;
+}
+
+.contact-title {
+  display: flex;
+}
+
+.contact-title img {
+  margin-left: 5px;
+}
+
+.contact-option p {
+  color: #707070;
+}
+.ride-title {
+  display: flex;
+}
+
+.ride-desc {
+  color: #707070;
+}
+#ride,
+.contact-option {
+  margin-left: 200px;
+}
+#delivery,
+.contact-option {
+  margin-left: 20px;
+}
+h2 {
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+#card-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#card-div h1 {
+  font-size: 50px;
+  letter-spacing: -2px;
+  flex-direction: row;
+  font-weight: 500;
+}
+.card {
+  flex-direction: column;
+  display: flex;
+  padding: 24px;
+  border-radius: 20px;
+  background-color: #5b565611;
+  width: 380px;
+  height: 250px;
+  justify-content: space-between;
+  text-align: left;
+}
+.card p {
+  color: #707070;
+}
+.card img {
+  width: 100px;
+}
+#cards {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 45px 355px;
+}
+#grid {
+  display: grid;
+  flex-direction: column;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 40px;
+  width: 632px;
+}
+#div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 50px 255px 100px 200px;
+  justify-content: space-between;
+}
+#div img {
+  width: 750px;
+}
+#ride-online {
+  background-image: url(./orig\ \(3\).jpeg);
+  height: 400px;
+  width: 1500px;
+  border-radius: 30px;
+  background-size: cover;
+  margin-bottom: 100px;
+  background-repeat: no-repeat;
+}
+#red {
+  background-color: #ff0000;
+  color: white;
+  height: 346px;
+  width: 780px;
+  margin: 27px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 40px;
+}
+#red h1 {
+  font-size: 50px;
+  letter-spacing: -1px;
+}
+#red h3 {
+  font-size: 25px;
+  letter-spacing: -1px;
+  padding-bottom: 10px;
+}
+#red img {
+  width: 130px;
+  border-radius: 20px;
+  display: flex;
+}
+#red .Download-Yango {
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+}
+#car-cards{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 200px;
+  margin: -40px 200px 0px 200px;
+}
+#car-1 {
+  height: 600px;
+  width: 480px;
+  background-color: #5b565611;
+  border-radius: 20px;
+  margin: 100px 0;
+  
+}
+#car-1 img {
+  width: 400px;
+  margin-left: 45px;
+}
+#car-1 div {
+  padding-left: 35px;
+}
+#car-1 h1 {
+  margin-bottom: 8px;
+}
+#car-1 h4 {
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+#car-1 #p {
+  margin-bottom: 50px;
+color: #707070;
+}
+#car-1 button{
+  margin-top: 25px;
+    height: 45px;
+    width: 410px;
+    border-radius: 30px;
+}
